@@ -361,17 +361,6 @@ app.include_router(example.router)
 
 ### 配置环境变量
 
-后端 `backend/.env`：
-
-```env
-DATABASE_URL=sqlite+aiosqlite:///./phpsentinel.db
-GEMINI_API_KEY=sk-xxx      # Gemini API Key（可选）
-OPENAI_API_KEY=sk-xxx      # OpenAI API Key（可选）
-MOONSHOT_API_KEY=sk-xxx    # Moonshot API Key（可选）
-CORS_ORIGINS=http://localhost:3000
-DEBUG=false
-```
-
 ### 生产构建
 
 ```bash
